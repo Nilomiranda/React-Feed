@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  background-color: #3b5998;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: #fff;
+    font-family: "Helvetica";
+    height: fit-content;
+    font-size: 1.6rem;
+  }
+}

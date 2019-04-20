@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post-card {
+  background-color: #fff;
+  width: 60%;
+  height: fit-content;
+  padding: 30px;
+  margin: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 10px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  > * {
+    margin: 10px;
+  }
+
+  p {
+    font-family: "Helvetica";
+    color: rgba(0, 0, 0, 0.7);
+    text-align: justify;
+  }
+}

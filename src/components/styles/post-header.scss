@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Helvetica";
+}
+
+.header {
+  display: flex;
+  border-bottom: 0.5px solid #888;
+  height: 95px;
+
+  img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.post-metadata {
+  width: auto;
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+  margin-left: 20px;
+
+  * {
+    margin: 4px;
+  }
+
+  .post-author {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .post-time {
+    color: #888;
+  }
+}
