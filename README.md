@@ -1,8 +1,14 @@
 # ReactJS Feed
 
+![Screenshot](public/screenshot.png)
+
 This is a simple project to being learning reactJS
 
 The purpose was to create a feed similar to facebook's.
+
+Because of it's simplicity, as it was used just to get started with the very
+basics of React, you won't see any fancy libraries, no data fetching, no dinamic
+data, nothing.
 
 ## Project description
 

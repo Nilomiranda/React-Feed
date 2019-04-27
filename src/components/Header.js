@@ -4,7 +4,7 @@ import './styles/header.scss';
 
 const Header = () => (
   <div className="app-header">
-    <h1>RocketBook</h1>
+    <h1>ReactBook</h1>
   </div>
 );
 
